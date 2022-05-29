@@ -1,0 +1,22 @@
+{
+    "name": "derhansen/issue-97707",
+    "type": "typo3-cms-extension",
+    "description": "TYPO3 test extension for forge issue #97707",
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "require": {
+        "typo3/cms-core": "^11.5",
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Derhansen\\ValidationTest\\": "Classes"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "validation_test"
+        }
+    }
+}
